@@ -1,12 +1,57 @@
 <html>
 	<head>
+		<title>FGO Drop Summary</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style>
+			body { background-color: #ccc; }
+			.item-img-lg { width: 85px; }
+			.item-img-sm { width: 45px; padding: 5px;}
+			.remove-padding { padding: 0px !important; }
+			.panel-body { background-color: #e6e6e6; text-align: center; }
+		</style>
 	</head>
 
 	<body>
+	<div id="app">
 
-		<div id="app" class="col-sm-6">
-			<table class="table table-condensed table-striped">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">FGO</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Drop Rate Summary</a></li>
+<!-- 								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">One more separated link</a></li> -->
+							</ul>
+						</li>
+						<li v-for="(item, index) in items" class="visible-lg-block">
+								<a v-bind:href="'#t-'+index" class="remove-padding"><img v-bind:src="item.imageUrl" class="item-img-sm"/></a>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+
+		<!-- MAIN STUFF-->
+		<div class="col-md-6 col-sm-12">
+			<table class="table table-condensed table-striped" style="background-color: white">
 				<thead>
 					<tr>
 						<th>Item</th>
@@ -18,33 +63,58 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr v-for="(item, index) in items">
-						<td><img v-bind:src="item.imageUrl" style="width: 85px;"/></td>
-						<td>
-							<div v-for="(loc, index) in item.dropLoc">{{loc.area}}</div>
-						</td>
-						<td>
-							<div v-for="(loc, index) in item.dropLoc">{{loc.quest}}</div>
-						</td>
-						<td>
-							<div v-for="(loc, index) in item.dropLoc">{{loc.ap}}</div>
-						</td>
-						<td>
-							<div v-for="(loc, index) in item.dropLoc">{{loc.apPerDrop}}</div>
-						</td>
-						<td>
-							<div v-for="(loc, index) in item.dropLoc">{{loc.dropRate}}</div>
-						</td>
-					</tr>
+					<template v-for="(item, index) in items">
+						<tr v-bind:id="'t-'+index">
+							<td><img v-bind:src="item.imageUrl" class="item-img-lg"/></td>
+							<td>
+								<div v-for="(loc, index) in item.dropLoc">{{loc.area}}</div>
+							</td>
+							<td>
+								<div v-for="(loc, index) in item.dropLoc">{{loc.quest}}</div>
+							</td>
+							<td>
+								<div v-for="(loc, index) in item.dropLoc">{{loc.ap}}</div>
+							</td>
+							<td>
+								<div v-for="(loc, index) in item.dropLoc">{{loc.apPerDrop}}</div>
+							</td>
+							<td>
+								<div v-for="(loc, index) in item.dropLoc">{{loc.dropRate}}%</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="6">
+								<div id="accordion" role="tablist">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" v-bind:href="'#s-'+index">
+												<h4 class="panel-title">Servants</h4>
+											</a>
+										</div>
+										<div class="panel-collapse collapse in" role="tabpanel" v-bind:id="'s-'+index">
+											<div class="panel-body">
+												<img v-show="item.servants" v-bind:src="item.servants"/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</template>
 				</tbody>
 			</table>
 		</div>
 
+	</div>
 	</body>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/vue"></script>
 	<script src="resources/js/index.js"></script>
+
+	<script>
+		$('.collapse').collapse();
+	</script>
 
 </html>
