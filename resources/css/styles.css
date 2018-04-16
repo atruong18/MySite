@@ -1,0 +1,31 @@
+body { background-color: #ccc; }
+.remove-padding { padding: 0 !important; }
+.remove-margin { margin: 0 !important; }
+.panel-body { background-color: #e6e6e6; text-align: center; }
+
+.item-img-lg { width: 85px; }
+
+.item-img-sm {
+	width: 50px;
+	padding: 5px;
+	vertical-align: bottom;
+	transition: all 0.1s ease;
+}
+.item-img-sm:hover {
+	width: 75px;
+	transition: all 0.1s ease;
+}
+
+.nav-bot-link {
+	text-align: center;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+	padding-top: 70px;
+}
