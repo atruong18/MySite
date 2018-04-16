@@ -1,34 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-<<<<<<< HEAD
-		<title>FGO Drop Summary</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<style>
-			body { background-color: #ccc; }
-			.item-img-lg { width: 85px; }
-			.item-img-sm { width: 45px; padding: 5px;}
-			.remove-padding { padding: 0px !important; }
-			.panel-body { background-color: #e6e6e6; text-align: center; }
-		</style>
-=======
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>FGO Drop Summary</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="resources/css/styles.css">
->>>>>>> master
 	</head>
 
 	<body>
 	<div id="app">
 
-<<<<<<< HEAD
-		<nav class="navbar navbar-inverse">
-=======
 		<nav class="navbar navbar-inverse remove-margin">
->>>>>>> master
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -37,29 +21,6 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-<<<<<<< HEAD
-					<a class="navbar-brand" href="#">FGO</a>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="dropdown active">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Drop Rate Summary</a></li>
-<!-- 								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">One more separated link</a></li> -->
-							</ul>
-						</li>
-						<li v-for="(item, index) in items" class="visible-lg-block">
-								<a v-bind:href="'#t-'+index" class="remove-padding"><img v-bind:src="item.imageUrl" class="item-img-sm"/></a>
-						</li>
-					</ul>
-=======
 					<a class="navbar-brand" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FGO NA <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Drop Rate Summary</a></li>
@@ -85,68 +46,10 @@
 		      </ul>
 
 					<p class="navbar-text navbar-right">Created by /atruong18</p>
->>>>>>> master
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 
-<<<<<<< HEAD
-
-		<!-- MAIN STUFF-->
-		<div class="col-md-6 col-sm-12">
-			<table class="table table-condensed table-striped" style="background-color: white">
-				<thead>
-					<tr>
-						<th>Item</th>
-						<th>Area</th>
-						<th>Quest</th>
-						<th>AP Cost</th>
-						<th>AP per Drop</th>
-						<th>Drop Rate</th>
-					</tr>
-				</thead>
-				<tbody>
-					<template v-for="(item, index) in items">
-						<tr v-bind:id="'t-'+index">
-							<td><img v-bind:src="item.imageUrl" class="item-img-lg"/></td>
-							<td>
-								<div v-for="(loc, index) in item.dropLoc">{{loc.area}}</div>
-							</td>
-							<td>
-								<div v-for="(loc, index) in item.dropLoc">{{loc.quest}}</div>
-							</td>
-							<td>
-								<div v-for="(loc, index) in item.dropLoc">{{loc.ap}}</div>
-							</td>
-							<td>
-								<div v-for="(loc, index) in item.dropLoc">{{loc.apPerDrop}}</div>
-							</td>
-							<td>
-								<div v-for="(loc, index) in item.dropLoc">{{loc.dropRate}}%</div>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="6">
-								<div id="accordion" role="tablist">
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab">
-											<a role="button" data-toggle="collapse" data-parent="#accordion" v-bind:href="'#s-'+index">
-												<h4 class="panel-title">Servants</h4>
-											</a>
-										</div>
-										<div class="panel-collapse collapse in" role="tabpanel" v-bind:id="'s-'+index">
-											<div class="panel-body">
-												<img v-show="item.servants" v-bind:src="item.servants"/>
-											</div>
-										</div>
-									</div>
-								</div>
-							</td>
-						</tr>
-					</template>
-				</tbody>
-			</table>
-=======
 		<nav class="navbar-fixed-bottom visible-lg-block">
 			<div class="container nav-bot-link">
 				<span v-for="(item, index) in items">
@@ -211,7 +114,6 @@
 					</tbody>
 				</table>
 			</div>
->>>>>>> master
 		</div>
 
 	</div>
