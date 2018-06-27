@@ -79,7 +79,7 @@
 								<tr v-bind:id="'t-'+index">
 									<td><img v-bind:src="item.imageUrl" class="item-img-lg"/></td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.area}}</div> <!-- Temp camelot logic -->
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.area}}</div> <!-- Temp Camelot logic -->
 									</td>
 									<td>
 										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.quest}}</div>
