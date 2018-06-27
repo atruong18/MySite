@@ -52,7 +52,7 @@
 		</nav>
 
 		<nav class="navbar-fixed-bottom visible-lg-block">
-			<div class="container nav-bot-link">
+			<div class="nav-bot-link">
 				<span v-for="(item, index) in items">
 					<a v-bind:href="'#t-'+index" class="remove-padding"><img v-bind:src="item.imageUrl" class="item-img-sm"/></a>
 				</span>
@@ -79,19 +79,19 @@
 								<tr v-bind:id="'t-'+index">
 									<td><img v-bind:src="item.imageUrl" class="item-img-lg"/></td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.area}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.area}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.quest}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.quest}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.ap}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.ap}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.apPerDrop}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.apPerDrop}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.dropRate}}%</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area == 'Camelot'}">{{loc.dropRate}}%</div>
 									</td>
 								</tr>
 								<tr>

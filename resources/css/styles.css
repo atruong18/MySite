@@ -29,3 +29,6 @@ body { background-color: #ccc; }
 .affix + .container-fluid {
 	padding-top: 70px;
 }
+
+
+.marked { color: red; }

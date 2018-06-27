@@ -88,6 +88,27 @@ new Vue({
 				"ap": 20,
 				"apPerDrop": 31.4,
 				"dropRate": "63.7"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Remnants of Western Village",
+				"ap": 20,
+				"apPerDrop": 42.5,
+				"dropRate": "47.1"
+			}
+		]
+	},
+	{
+		"itemName": "Fool's Chain",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/5/55/Chains_of_The_Fool.png",
+		"servants": "resources/img/servants-chain.PNG",
+		"dropLoc": [
+			{
+				"area": "Camelot",
+				"quest": "Wilderness of Death",
+				"ap": 19,
+				"apPerDrop": 29.9,
+				"dropRate": "63.5"
 			}
 		]
 	},
@@ -112,6 +133,13 @@ new Vue({
 		"servants": "resources/img/servants-lantern.PNG",
 		"dropLoc": [
 			{
+				"area": "Camelot",
+				"quest": "Holy City Districts",
+				"ap": 20,
+				"apPerDrop": 72.5,
+				"dropRate": "27.6"
+			},
+			{
 				"area": "Okeanos",
 				"quest": "Stormy Seas",
 				"ap": 15,
@@ -125,6 +153,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/8/84/Octuplet_twin_crystals.png",
 		"servants": "resources/img/servants-crystal.PNG",
 		"dropLoc": [
+			{
+				"area": "Camelot",
+				"quest": "Holy City Districts",
+				"ap": 20,
+				"apPerDrop": 72.5,
+				"dropRate": "27.6"
+			},
 			{
 				"area": "Okeanos",
 				"quest": "Two-Current Sea",
@@ -187,6 +222,13 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 68.1,
 				"dropRate": "26.4"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Atlas Academy",
+				"ap": 20,
+				"apPerDrop": 95.4,
+				"dropRate": "21.0"
 			}
 		]
 	},
@@ -224,11 +266,46 @@ new Vue({
 		"servants": "resources/img/servants-horseshoe.PNG",
 		"dropLoc": [
 			{
+				"area": "Camelot",
+				"quest": "Vast Land of Nothingness",
+				"ap": 22,
+				"apPerDrop": 50.1,
+				"dropRate": "43.9"
+			},
+			{
 				"area": "Okeanos",
 				"quest": "Caldera Island",
 				"ap": 17,
 				"apPerDrop": 131.5,
 				"dropRate": "12.9"
+			}
+		]
+	},
+	{
+		"itemName": "Great Knight Medal",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/6/67/Medal_of_Great_Knight.png",
+		"servants": "resources/img/servants-knight-medal.PNG",
+		"dropLoc": [
+			{
+				"area": "Camelot",
+				"quest": "Sovereign Castle",
+				"ap": 21,
+				"apPerDrop": 56.9,
+				"dropRate": "36.9"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Holy City Main Entrance",
+				"ap": 20,
+				"apPerDrop": 61.0,
+				"dropRate": "32.8"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Round Table Fortress",
+				"ap": 19,
+				"apPerDrop": 61.0,
+				"dropRate": "32.8"
 			}
 		]
 	},
@@ -295,6 +372,13 @@ new Vue({
 		"servants": "resources/img/servants-root.PNG",
 		"dropLoc": [
 			{
+				"area": "Camelot",
+				"quest": "Holy City Districts",
+				"ap": 20,
+				"apPerDrop": 162.0,
+				"dropRate": "12.3"
+			},
+			{
 				"area": "America",
 				"quest": "Washington",
 				"ap": 20,
@@ -308,6 +392,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/b/b9/Horsehorn.png",
 		"servants": "resources/img/servants-horn.PNG",
 		"dropLoc": [
+			{
+				"area": "Camelot",
+				"quest": "Eastern Village",
+				"ap": 19,
+				"apPerDrop": 110.5,
+				"dropRate": "17.2"
+			},
 			{
 				"area": "America",
 				"quest": "Learney",
@@ -342,6 +433,48 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 146.7,
 				"dropRate": "12.3"
+			}
+		]
+	},
+	{
+		"itemName": "Lamp of Evil-Sealing",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/8/88/Lamp_of_Demon_Sealing.png",
+		"servants": "resources/img/servants-lamp.PNG",
+		"dropLoc": [
+			{
+				"area": "Camelot",
+				"quest": "Concealed Village",
+				"ap": 21,
+				"apPerDrop": 120.0,
+				"dropRate": "17.5"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Dunes of Daybreak",
+				"ap": 21,
+				"apPerDrop": 165.1,
+				"dropRate": "11.5"
+			}
+		]
+	},
+	{
+		"itemName": "Scarab of Wisdom",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/c/c2/Scarab_of_Wisdom.png",
+		"servants": "resources/img/servants-scarab.PNG",
+		"dropLoc": [
+			{
+				"area": "Camelot",
+				"quest": "Great Temple",
+				"ap": 22,
+				"apPerDrop": 210.4,
+				"dropRate": "10.5"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Desert Sandstorm",
+				"ap": 19,
+				"apPerDrop": 236.2,
+				"dropRate": "8.0"
 			}
 		]
 	}
