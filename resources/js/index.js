@@ -109,6 +109,20 @@ new Vue({
 				"ap": 19,
 				"apPerDrop": 29.9,
 				"dropRate": "63.5"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Great Temple",
+				"ap": 22,
+				"apPerDrop": 51.3,
+				"dropRate": "42.9"
+			},
+			{
+				"area": "Camelot",
+				"quest": "Concealed Village",
+				"ap": 21,
+				"apPerDrop": 66.8,
+				"dropRate": "31.4"
 			}
 		]
 	},
@@ -134,10 +148,10 @@ new Vue({
 		"dropLoc": [
 			{
 				"area": "Camelot",
-				"quest": "Holy City Districts",
-				"ap": 20,
-				"apPerDrop": 72.5,
-				"dropRate": "27.6"
+				"quest": "Evening Bell Mausoleum",
+				"ap": 19,
+				"apPerDrop": 57.8,
+				"dropRate": "32.9"
 			},
 			{
 				"area": "Okeanos",
@@ -304,8 +318,8 @@ new Vue({
 				"area": "Camelot",
 				"quest": "Round Table Fortress",
 				"ap": 19,
-				"apPerDrop": 61.0,
-				"dropRate": "32.8"
+				"apPerDrop": 100.3,
+				"dropRate": "18.9"
 			}
 		]
 	},
