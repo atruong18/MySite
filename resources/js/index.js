@@ -323,6 +323,22 @@ new Vue({
 			}
 		]
 	},
+	{
+		"itemName": "Seashell of Reminiscence",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/e/eb/Seashell.png",
+		"servants": "resources/img/servants-seashells.PNG",
+		"dropLoc": [
+			{
+				"quest": "You get 50 shells from shop",
+			},
+			{
+				"quest": "Rest is from drops during event...",
+			},
+			{
+				"quest": "See Event Resources link",
+			}
+		]
+	},
 // Gold
 	{
 		"itemName": "Claw of Chaos",
