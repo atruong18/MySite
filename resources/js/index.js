@@ -326,7 +326,7 @@ new Vue({
 	{
 		"itemName": "Seashell of Reminiscence",
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/e/eb/Seashell.png",
-		"servants": "resources/img/servants-seashells.PNG",
+		"servants": "resources/img/servants-seashell.PNG",
 		"dropLoc": [
 			{
 				"quest": "You get 50 shells from shop",
