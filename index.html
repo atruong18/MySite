@@ -72,8 +72,6 @@
 								<th>AP Cost</th>
 								<th>AP per Drop</th>
 								<th>Drop Rate</th>
-								<th class="marked">1/2 AP</th>
-								<th class="marked">1/2 AP per Drop</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -95,15 +93,9 @@
 									<td>
 										<div v-for="(loc, index) in item.dropLoc">{{loc.dropRate}}%</div>
 									</td>
-									<td>
-										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area && loc.area.indexOf('Chaldea') == -1}">{{loc.ap / 2}}</div>
-									</td>
-									<td>
-										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked : loc.area && loc.area.indexOf('Chaldea') == -1}">{{loc.apPerDrop / 2}}</div>
-									</td>
 								</tr>
 								<tr>
-									<td colspan="8">
+									<td colspan="6">
 										<div id="accordion" role="tablist">
 											<div class="panel panel-default">
 												<div class="panel-heading" role="tab">
