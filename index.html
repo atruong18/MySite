@@ -79,19 +79,19 @@
 								<tr v-bind:id="'t-'+index">
 									<td><img v-bind:src="item.imageUrl" class="item-img-lg"/></td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.area}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked2 : loc.quest && loc.quest.indexOf('1/2') != -1}">{{loc.area}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.quest}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked2 : loc.quest && loc.quest.indexOf('1/2') != -1}">{{loc.quest}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.ap}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked2 : loc.quest && loc.quest.indexOf('1/2') != -1}">{{loc.ap}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.apPerDrop}}</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked2 : loc.quest && loc.quest.indexOf('1/2') != -1}">{{loc.apPerDrop}}</div>
 									</td>
 									<td>
-										<div v-for="(loc, index) in item.dropLoc">{{loc.dropRate}}%</div>
+										<div v-for="(loc, index) in item.dropLoc" v-bind:class="{ marked2 : loc.quest && loc.quest.indexOf('1/2') != -1}">{{loc.dropRate}}%</div>
 									</td>
 								</tr>
 								<tr>
