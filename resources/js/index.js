@@ -497,15 +497,15 @@ new Vue({
 				"dropRate": "20.9"
 			},
 			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 30AP (1/2)",
+				"area": "Chaldea (Sun)",
+				"quest": "Saber 30AP (1/2)",
 				"ap": 15,
 				"apPerDrop": 97,
 				"dropRate": "15.4"
 			},
 			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 10AP (1/2)",
+				"area": "Chaldea (Sun)",
+				"quest": "Saber 10AP (1/2)",
 				"ap": 5,
 				"apPerDrop": 104,
 				"dropRate": "4.8"
