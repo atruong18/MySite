@@ -41,27 +41,6 @@ new Vue({
 		"servants": "resources/img/servants-unlucky-bone.PNG",
 		"dropLoc": [
 			{
-				"area": "Chaldea (Tue)",
-				"quest": "Lancer 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 19,
-				"dropRate": "25.9"
-			},
-			{
-				"area": "Chaldea (Mon)",
-				"quest": "Archer 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 20,
-				"dropRate": "24.9"
-			},
-			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 21,
-				"dropRate": "24.0"
-			},
-			{
 				"area": "Fuyuki",
 				"quest": "X-C",
 				"ap": 4,
@@ -95,13 +74,6 @@ new Vue({
 				"ap": 14,
 				"apPerDrop": 27.8,
 				"dropRate": "50.3"
-			},
-			{
-				"area": "Chaldea (Thu)",
-				"quest": "Rider 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 29,
-				"dropRate": "17.1"
 			}
 		]
 	},
@@ -166,13 +138,6 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 58.4,
 				"dropRate": "30.8"
-			},
-			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 63,
-				"dropRate": "24.0"
 			}
 		]
 	},
@@ -194,13 +159,6 @@ new Vue({
 				"ap": 15,
 				"apPerDrop": 67.3,
 				"dropRate": "22.3"
-			},
-			{
-				"area": "Chaldea (Sat)",
-				"quest": "Assassin 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 95,
-				"dropRate": "15.8"
 			}
 		]
 	},
@@ -217,13 +175,6 @@ new Vue({
 				"dropRate": "27.6"
 			},
 			{
-				"area": "Chaldea (Wed)",
-				"quest": "Berserker 20AP (1/2)",
-				"ap": 10,
-				"apPerDrop": 78,
-				"dropRate": "12.8"
-			},
-			{
 				"area": "Okeanos",
 				"quest": "Two-Current Sea",
 				"ap": 14,
@@ -238,34 +189,6 @@ new Vue({
 		"servants": "resources/img/servants-snake-jewel.PNG",
 		"dropLoc": [
 			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 63,
-				"dropRate": "8.0"
-			},
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 67,
-				"dropRate": "22.3"
-			},
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 20AP (1/2)",
-				"ap": 10,
-				"apPerDrop": 70,
-				"dropRate": "14.2"
-			},
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 81,
-				"dropRate": "24.8"
-			},
-			{
 				"area": "Okeanos",
 				"quest": "Sunken Rock Seas",
 				"ap": 17,
@@ -279,20 +202,6 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/c/c4/Phoenix_plume.png",
 		"servants": "resources/img/servants-plumes.PNG",
 		"dropLoc": [
-			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 88,
-				"dropRate": "17.1"
-			},
-			{
-				"area": "Chaldea (Mon)",
-				"quest": "Archer 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 103,
-				"dropRate": "19.5"
-			},
 			{
 				"area": "Chaldea (Sun)",
 				"quest": "Saber 30AP",
@@ -322,25 +231,11 @@ new Vue({
 				"dropRate": "40.9"
 			},
 			{
-				"area": "Chaldea (Sat)",
-				"quest": "Assassin 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 54,
-				"dropRate": "9.3"
-			},
-			{
 				"area": "London",
 				"quest": "Clerkenwell",
 				"ap": 18,
 				"apPerDrop": 68.1,
 				"dropRate": "26.4"
-			},
-			{
-				"area": "Chaldea (Sat)",
-				"quest": "Assassin 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 84,
-				"dropRate": "17.9"
 			},
 			{
 				"area": "Camelot",
@@ -362,21 +257,7 @@ new Vue({
 				"ap": 20,
 				"apPerDrop": 72.8,
 				"dropRate": "27.5"
-			},
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 96,
-				"dropRate": "15.6"
-			},
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 97,
-				"dropRate": "20.7"
-			},			
+			},		
 		]
 	},
 	{
@@ -391,20 +272,6 @@ new Vue({
 				"apPerDrop": 61.4,
 				"dropRate": "31.0"
 			},
-			{
-				"area": "Chaldea (Tue)",
-				"quest": "Lancer 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 82,
-				"dropRate": "18.2"
-			},
-			{
-				"area": "Chaldea (Tue)",
-				"quest": "Lancer 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 94,
-				"dropRate": "21.3"
-			},
 		]
 	},
 	{
@@ -418,27 +285,6 @@ new Vue({
 				"ap": 22,
 				"apPerDrop": 50.1,
 				"dropRate": "43.9"
-			},
-			{
-				"area": "Chaldea (Mon)",
-				"quest": "Archer 20AP (1/2)",
-				"ap": 10,
-				"apPerDrop": 92,
-				"dropRate": "10.9"
-			},
-			{
-				"area": "Chaldea (Thu)",
-				"quest": "Rider 20AP (1/2)",
-				"ap": 10,
-				"apPerDrop": 93,
-				"dropRate": "10.7"
-			},
-			{
-				"area": "Chaldea (Thu)",
-				"quest": "Rider 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 96,
-				"dropRate": "20.8"
 			},
 			{
 				"area": "Okeanos",
@@ -483,32 +329,18 @@ new Vue({
 		"servants": "resources/img/servants-seashell.PNG",
 		"dropLoc": [
 			{
+				"area": "Okeanos",
+				"quest": "Archipelago (Hidden Island)",
+				"ap": 16,
+				"apPerDrop": 57.2,
+				"dropRate": "28.0"
+			},
+			{
 				"area": "Chaldea (Sun)",
-				"quest": "Saber 20AP (1/2)",
+				"quest": "Saber 20AP",
 				"ap": 10,
-				"apPerDrop": 94,
+				"apPerDrop": 189,
 				"dropRate": "10.6"
-			},
-			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 96,
-				"dropRate": "20.9"
-			},
-			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 97,
-				"dropRate": "15.4"
-			},
-			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 10AP (1/2)",
-				"ap": 5,
-				"apPerDrop": 104,
-				"dropRate": "4.8"
 			}
 		]
 	},
@@ -524,13 +356,6 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 87.7,
 				"dropRate": "20.5"
-			},
-			{
-				"area": "Chaldea (Wed)",
-				"quest": "Berserker 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 211,
-				"dropRate": "7.1"
 			}
 		]
 	},
@@ -539,20 +364,6 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/e/ec/Heart_of_a_foreign_god.png",
 		"servants": "resources/img/servants-heart.PNG",
 		"dropLoc": [
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 313,
-				"dropRate": "6.4"
-			},
-			{
-				"area": "Chaldea (Fri)",
-				"quest": "Caster 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 405,
-				"dropRate": "3.7"
-			},
 			{
 				"area": "Chaldea (Fri)",
 				"quest": "Caster 30AP",
@@ -574,20 +385,6 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/c/c8/Dragons_reverse_scale.png",
 		"servants": "resources/img/servants-scale.PNG",
 		"dropLoc": [
-			{
-				"area": "Chaldea (Thu)",
-				"quest": "Rider 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 267,
-				"dropRate": "7.5"
-			},
-			{
-				"area": "Chaldea (Thu)",
-				"quest": "Rider 30AP (1/2)",
-				"ap": 15,
-				"apPerDrop": 469,
-				"dropRate": "3.2"
-			},
 			{
 				"area": "Chaldea (Thu)",
 				"quest": "Rider 40AP",
@@ -617,13 +414,6 @@ new Vue({
 				"dropRate": "12.3"
 			},
 			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 250,
-				"dropRate": "8.0"
-			},
-			{
 				"area": "America",
 				"quest": "Washington",
 				"ap": 20,
@@ -650,13 +440,6 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 141.9,
 				"dropRate": "12.7"
-			},
-			{
-				"area": "Chaldea (Tue)",
-				"quest": "Lancer 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 155,
-				"dropRate": "12.9"
 			}
 		]
 	},
@@ -665,13 +448,6 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/f/ff/Bloodtear.png",
 		"servants": "resources/img/servants-tears.PNG",
 		"dropLoc": [
-			{
-				"area": "Chaldea (Mon)",
-				"quest": "Archer 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 153,
-				"dropRate": "13.1"
-			},
 			{
 				"area": "America",
 				"quest": "Alexandria",
@@ -692,13 +468,6 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 146.7,
 				"dropRate": "12.3"
-			},
-			{
-				"area": "Chaldea (Sat)",
-				"quest": "Assassin 40AP (1/2)",
-				"ap": 20,
-				"apPerDrop": 167,
-				"dropRate": "12.0"
 			},
 		]
 	},
