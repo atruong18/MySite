@@ -74,6 +74,13 @@ new Vue({
 				"ap": 14,
 				"apPerDrop": 27.8,
 				"dropRate": "50.3"
+			},
+			{
+				"area": "Babylonia",
+				"quest": "Eridu",
+				"ap": 21,
+				"apPerDrop": 32.0,
+				"dropRate": "65.7"
 			}
 		]
 	},
@@ -126,12 +133,40 @@ new Vue({
 			}
 		]
 	},
+	{
+		"itemName": "Stinger of Certain Death",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/c/cc/Stinger_of_Certain_Death.png",
+		"servants": "resources/img/servants-stinger.png",
+		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Field of Reeds",
+				"ap": 21,
+				"apPerDrop": 34.0,
+				"dropRate": "61.7"
+			},
+			{
+				"area": "Babylonia",
+				"quest": "Plateau",
+				"ap": 20,
+				"apPerDrop": 39.0,
+				"dropRate": "51.3"
+			}
+		]
+	},
 // Silver
 	{
 		"itemName": "Seed of Yggdrasil",
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/4/41/Yggdrasil_seed.png",
 		"servants": "resources/img/servants-seed.PNG",
 		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Abolished Metropolis Babylon",
+				"ap": 20,
+				"apPerDrop": 40.0,
+				"dropRate": "50.0"
+			},
 			{
 				"area": "Okeanos",
 				"quest": "Bountiful Sea",
@@ -146,6 +181,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/b/b1/Ghost_lantern.png",
 		"servants": "resources/img/servants-lantern.PNG",
 		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Cuthah",
+				"ap": 21,
+				"apPerDrop": 54.2,
+				"dropRate": "38.8"
+			},
 			{
 				"area": "Camelot",
 				"quest": "Evening Bell Mausoleum",
@@ -188,6 +230,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/2/28/Snake_jewel.png",
 		"servants": "resources/img/servants-snake-jewel.PNG",
 		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Marshland",
+				"ap": 21,
+				"apPerDrop": 79.1,
+				"dropRate": "26.5"
+			},
 			{
 				"area": "Okeanos",
 				"quest": "Sunken Rock Seas",
@@ -329,6 +378,13 @@ new Vue({
 		"servants": "resources/img/servants-seashell.PNG",
 		"dropLoc": [
 			{
+				"area": "Babylonia",
+				"quest": "Observatory",
+				"ap": 21,
+				"apPerDrop": 50.5,
+				"dropRate": "41.5"
+			},
+			{
 				"area": "Okeanos",
 				"quest": "Archipelago (Hidden Island)",
 				"ap": 16,
@@ -356,7 +412,14 @@ new Vue({
 				"ap": 18,
 				"apPerDrop": 87.7,
 				"dropRate": "20.5"
-			}
+			},
+			{
+				"area": "Babylonia",
+				"quest": "Ur",
+				"ap": 21,
+				"apPerDrop": 110.0,
+				"dropRate": "19.1"
+			},
 		]
 	},
 	{
@@ -385,6 +448,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/c/c8/Dragons_reverse_scale.png",
 		"servants": "resources/img/servants-scale.PNG",
 		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Nippur",
+				"ap": 21,
+				"apPerDrop": 161.2,
+				"dropRate": "13.0"
+			},
 			{
 				"area": "Chaldea (Thu)",
 				"quest": "Rider 40AP",
@@ -463,6 +533,13 @@ new Vue({
 		"servants": "resources/img/servants-goop.PNG",
 		"dropLoc": [
 			{
+				"area": "Babylonia",
+				"quest": "Northern Hill",
+				"ap": 20,
+				"apPerDrop": 110.9,
+				"dropRate": "18.0"
+			},
+			{
 				"area": "America",
 				"quest": "Lubbock",
 				"ap": 18,
@@ -510,6 +587,41 @@ new Vue({
 				"ap": 19,
 				"apPerDrop": 236.2,
 				"dropRate": "8.0"
+			}
+		]
+	},
+	{
+		"itemName": "Primordial Lanugo",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/f/f6/Primordial_Lanugo.png",
+		"servants": "resources/img/servants-primordial.PNG",
+		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Blood Fort Andromeda",
+				"ap": 21,
+				"apPerDrop": 108.8,
+				"dropRate": "19.3"
+			},
+			{
+				"area": "Babylonia",
+				"quest": "Northern Wall",
+				"ap": 21,
+				"apPerDrop": 169.2,
+				"dropRate": "12.4"
+			}
+		]
+	},
+	{
+		"itemName": "Cursed Beast Cholecyst",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/5/59/Cursed_Beast_Cholecyst.png",
+		"servants": "resources/img/servants-cholecyst.PNG",
+		"dropLoc": [
+			{
+				"area": "Babylonia",
+				"quest": "Mount Ahvaz",
+				"ap": 21,
+				"apPerDrop": 171.7,
+				"dropRate": "12.2"
 			}
 		]
 	}
