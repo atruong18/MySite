@@ -154,6 +154,34 @@ new Vue({
 			}
 		]
 	},
+	{
+		"itemName": "Magical Cerebrospinal Fluid",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/b/bc/Magical_Cerebrospinal_Fluid_icon.png",
+		"servants": "resources/img/servants-fluid.PNG",
+		"dropLoc": [
+			{
+				"area": "Shinjuku",
+				"quest": "Shinjuku Station",
+				"ap": 21,
+				"apPerDrop": 32.3,
+				"dropRate": "65.0"
+			},
+			{
+				"area": "Shinjuku",
+				"quest": "Japan National Route 20",
+				"ap": 20,
+				"apPerDrop": 50.0,
+				"dropRate": "40.0"
+			},
+			{
+				"area": "Shinjuku",
+				"quest": "Yoyogi 2-chome",
+				"ap": 20,
+				"apPerDrop": 50.3,
+				"dropRate": "39.8"
+			}
+		]
+	},
 // Silver
 	{
 		"itemName": "Seed of Yggdrasil",
@@ -273,6 +301,13 @@ new Vue({
 		"servants": "resources/img/servants-gear.PNG",
 		"dropLoc": [
 			{
+				"area": "Shinjuku",
+				"quest": "Barrel Tower",
+				"ap": 21,
+				"apPerDrop": 46.0,
+				"dropRate": "45.7"
+			},
+			{
 				"area": "America",
 				"quest": "Chicago",
 				"ap": 21,
@@ -300,6 +335,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/e/e6/Forbidden_page.png",
 		"servants": "resources/img/servants-pages.PNG",
 		"dropLoc": [
+			{
+				"area": "Shinjuku",
+				"quest": "Shinjuku 2-chome",
+				"ap": 21,
+				"apPerDrop": 68.5,
+				"dropRate": "30.7"
+			},		
 			{
 				"area": "London",
 				"quest": "Hyde Park",
@@ -428,6 +470,13 @@ new Vue({
 		"servants": "resources/img/servants-heart.PNG",
 		"dropLoc": [
 			{
+				"area": "Shinjuku",
+				"quest": "Shinjuku Imperial Garden",
+				"ap": 21,
+				"apPerDrop": 171.3,
+				"dropRate": "12.3"
+			},
+			{
 				"area": "Chaldea (Fri)",
 				"quest": "Caster 30AP",
 				"ap": 30,
@@ -484,6 +533,13 @@ new Vue({
 				"dropRate": "12.3"
 			},
 			{
+				"area": "Shinjuku",
+				"quest": "Tower's Top Floor",
+				"ap": 21,
+				"apPerDrop": 199.3,
+				"dropRate": "10.5"
+			},
+			{
 				"area": "America",
 				"quest": "Washington",
 				"ap": 20,
@@ -518,6 +574,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/f/ff/Bloodtear.png",
 		"servants": "resources/img/servants-tears.PNG",
 		"dropLoc": [
+			{
+				"area": "Shinjuku",
+				"quest": "Shinjuku 2-chome",
+				"ap": 21,
+				"apPerDrop": 113.7,
+				"dropRate": "18.5"
+			},
 			{
 				"area": "America",
 				"quest": "Alexandria",
