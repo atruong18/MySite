@@ -196,6 +196,13 @@ new Vue({
 				"dropRate": "50.0"
 			},
 			{
+				"area": "Agartha",
+				"quest": "Riverside Town",
+				"ap": 20,
+				"apPerDrop": 50.4,
+				"dropRate": "39.7"
+			},
+			{
 				"area": "Okeanos",
 				"quest": "Bountiful Sea",
 				"ap": 18,
@@ -238,6 +245,13 @@ new Vue({
 		"servants": "resources/img/servants-crystal.PNG",
 		"dropLoc": [
 			{
+				"area": "Agartha",
+				"quest": "Peach Blossom Spring",
+				"ap": 21,
+				"apPerDrop": 52.4,
+				"dropRate": "40.1"
+			},
+			{
 				"area": "Camelot",
 				"quest": "Holy City Districts",
 				"ap": 20,
@@ -259,6 +273,13 @@ new Vue({
 		"servants": "resources/img/servants-snake-jewel.PNG",
 		"dropLoc": [
 			{
+				"area": "Agartha",
+				"quest": "Chasm on The Ground",
+				"ap": 21,
+				"apPerDrop": 55.6,
+				"dropRate": "37.7"
+			},
+			{
 				"area": "Babylonia",
 				"quest": "Marshland",
 				"ap": 21,
@@ -279,6 +300,20 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/c/c4/Phoenix_plume.png",
 		"servants": "resources/img/servants-plumes.PNG",
 		"dropLoc": [
+			{
+				"area": "Agartha",
+				"quest": "Subterranean Large River",
+				"ap": 21,
+				"apPerDrop": 70.2,
+				"dropRate": "29.9"
+			},
+			{
+				"area": "Agartha",
+				"quest": "Riverside Town",
+				"ap": 20,
+				"apPerDrop": 94.7,
+				"dropRate": "21.1"
+			},
 			{
 				"area": "Chaldea (Sun)",
 				"quest": "Saber 30AP",
@@ -456,6 +491,13 @@ new Vue({
 				"dropRate": "20.5"
 			},
 			{
+				"area": "Agartha",
+				"quest": "Subterranean Moor",
+				"ap": 20,
+				"apPerDrop": 95.9,
+				"dropRate": "20.9"
+			},
+			{
 				"area": "Babylonia",
 				"quest": "Ur",
 				"ap": 21,
@@ -554,6 +596,13 @@ new Vue({
 		"servants": "resources/img/servants-horn.PNG",
 		"dropLoc": [
 			{
+				"area": "Agartha",
+				"quest": "Campsite",
+				"ap": 20,
+				"apPerDrop": 85.9,
+				"dropRate": "23.3"
+			},
+			{
 				"area": "Camelot",
 				"quest": "Eastern Village",
 				"ap": 19,
@@ -595,6 +644,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/4/49/Blacktallow.png",
 		"servants": "resources/img/servants-goop.PNG",
 		"dropLoc": [
+			{
+				"area": "Agartha",
+				"quest": "Northern Palisade",
+				"ap": 21,
+				"apPerDrop": 103.2,
+				"dropRate": "20.3"
+			},
 			{
 				"area": "Babylonia",
 				"quest": "Northern Hill",
@@ -685,6 +741,20 @@ new Vue({
 				"ap": 21,
 				"apPerDrop": 171.7,
 				"dropRate": "12.2"
+			}
+		]
+	},
+	{
+		"itemName": "Bizarre Godly Wine",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/a/a8/Bizarre_God_Wine.png",
+		"servants": "resources/img/servants-wine.PNG",
+		"dropLoc": [
+			{
+				"area": "Agartha",
+				"quest": "Palace of Dragon King",
+				"ap": 21,
+				"apPerDrop": 160.8,
+				"dropRate": "13.1"
 			}
 		]
 	}
