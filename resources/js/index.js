@@ -236,6 +236,13 @@ new Vue({
 				"ap": 15,
 				"apPerDrop": 67.3,
 				"dropRate": "22.3"
+			},
+			{
+				"area": "Shimosa",
+				"quest": "Paddy Fields",
+				"ap": 20,
+				"apPerDrop": 77.6,
+				"dropRate": "25.8"
 			}
 		]
 	},
@@ -474,6 +481,34 @@ new Vue({
 				"ap": 10,
 				"apPerDrop": 189,
 				"dropRate": "10.6"
+			}
+		]
+	},
+	{
+		"itemName": "Kotan Magatama",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/9/9c/Kotan_Magatama.png",
+		"servants": "resources/img/servants-magatama.PNG",
+		"dropLoc": [
+			{
+				"area": "Shimosa",
+				"quest": "Castle Town",
+				"ap": 21,
+				"apPerDrop": 51.8,
+				"dropRate": "40.5"
+			},
+			{
+				"area": "Shimosa",
+				"quest": "Tokejou",
+				"ap": 21,
+				"apPerDrop": 81.2,
+				"dropRate": "25.9"
+			},
+			{
+				"area": "Shimosa",
+				"quest": "Hamlet",
+				"ap": 21,
+				"apPerDrop": 82.3,
+				"dropRate": "25.5"
 			}
 		]
 	},
@@ -736,6 +771,13 @@ new Vue({
 		"servants": "resources/img/servants-cholecyst.PNG",
 		"dropLoc": [
 			{
+				"area": "Shimosa",
+				"quest": "Arakawa Prairie",
+				"ap": 21,
+				"apPerDrop": 162.5,
+				"dropRate": "12.9"
+			},		
+			{
 				"area": "Babylonia",
 				"quest": "Mount Ahvaz",
 				"ap": 21,
@@ -755,6 +797,13 @@ new Vue({
 				"ap": 21,
 				"apPerDrop": 160.8,
 				"dropRate": "13.1"
+			},
+			{
+				"area": "Shimosa",
+				"quest": "Tokejou",
+				"ap": 21,
+				"apPerDrop": 229.9,
+				"dropRate": "9.1"
 			}
 		]
 	}
