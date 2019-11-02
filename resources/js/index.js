@@ -125,11 +125,18 @@ new Vue({
 				"dropRate": "42.9"
 			},
 			{
-				"area": "Camelot",
-				"quest": "Concealed Village",
+				"area": "Salem",
+				"quest": "Suburb Mansion",
 				"ap": 21,
-				"apPerDrop": 66.8,
-				"dropRate": "31.4"
+				"apPerDrop": 51.8,
+				"dropRate": "40.5"
+			},
+			{
+				"area": "Salem",
+				"quest": "Quay",
+				"ap": 21,
+				"apPerDrop": 52.6,
+				"dropRate": "39.9"
 			}
 		]
 	},
@@ -182,6 +189,48 @@ new Vue({
 			}
 		]
 	},
+	{
+		"itemName": "Night-Weeping Iron Stake",
+		"imageUrl": "vignette.wikia.nocookie.net/fategrandorder/images/3/35/Iron_Stake.png",
+		"servants": "resources/img/servants-stake.PNG",
+		"dropLoc": [
+			{
+				"area": "Salem",
+				"quest": "Gallow Hill",
+				"ap": 21,
+				"apPerDrop": 30.6,
+				"dropRate": "68.6"
+			},
+			{
+				"area": "Salem",
+				"quest": "Carter House",
+				"ap": 20,
+				"apPerDrop": 49.9,
+				"dropRate": "40.1"
+			},
+			{
+				"area": "Salem",
+				"quest": "Suburb Mansion",
+				"ap": 21,
+				"apPerDrop": 51.5,
+				"dropRate": "40.8"
+			},
+			{
+				"area": "Salem",
+				"quest": "Vacant House",
+				"ap": 21,
+				"apPerDrop": 51.8,
+				"dropRate": "40.5"
+			},
+			{
+				"area": "Salem",
+				"quest": "Meadows",
+				"ap": 21,
+				"apPerDrop": 52.5,
+				"dropRate": "40.0"
+			}
+		]
+	},
 // Silver
 	{
 		"itemName": "Seed of Yggdrasil",
@@ -194,6 +243,20 @@ new Vue({
 				"ap": 20,
 				"apPerDrop": 40.0,
 				"dropRate": "50.0"
+			},
+			{
+				"area": "Salem",
+				"quest": "Quiet Forest",
+				"ap": 20,
+				"apPerDrop": 42.4,
+				"dropRate": "47.2"
+			},
+			{
+				"area": "Salem",
+				"quest": "Refuge",
+				"ap": 21,
+				"apPerDrop": 47.4,
+				"dropRate": "44.3"
 			},
 			{
 				"area": "Agartha",
@@ -308,6 +371,13 @@ new Vue({
 		"servants": "resources/img/servants-plumes.PNG",
 		"dropLoc": [
 			{
+				"area": "Salem",
+				"quest": "Town Hall",
+				"ap": 21,
+				"apPerDrop": 59.3,
+				"dropRate": "35.4"
+			},
+			{
 				"area": "Agartha",
 				"quest": "Subterranean Large River",
 				"ap": 21,
@@ -322,18 +392,11 @@ new Vue({
 				"dropRate": "21.1"
 			},
 			{
-				"area": "Chaldea (Sun)",
-				"quest": "Saber 30AP",
-				"ap": 30,
-				"apPerDrop": 172.9,
-				"dropRate": "17.4"
-			},
-			{
-				"area": "Okeanos",
-				"quest": "Bountiful Sea",
-				"ap": 18,
-				"apPerDrop": 192.8,
-				"dropRate": "9.3"
+				"area": "Vacant House",
+				"quest": "Suburb Mansion",
+				"ap": 21,
+				"apPerDrop": 103,
+				"dropRate": "20.4"
 			}
 		]
 	},
@@ -398,6 +461,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/3/3c/Homunculus_baby.png",
 		"servants": "resources/img/servants-homunculus.PNG",
 		"dropLoc": [
+			{
+				"area": "Salem",
+				"quest": "Whateley House",
+				"ap": 21,
+				"apPerDrop": 50.0,
+				"dropRate": "42.0"
+			},
 			{
 				"area": "London",
 				"quest": "Southwark",
@@ -546,6 +616,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/e/ec/Heart_of_a_foreign_god.png",
 		"servants": "resources/img/servants-heart.PNG",
 		"dropLoc": [
+			{
+				"area": "Salem",
+				"quest": "Carter House",
+				"ap": 20,
+				"apPerDrop": 162.2,
+				"dropRate": "12.3"
+			},
 			{
 				"area": "Shinjuku",
 				"quest": "Shinjuku Imperial Garden",
@@ -707,6 +784,13 @@ new Vue({
 		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/8/88/Lamp_of_Demon_Sealing.png",
 		"servants": "resources/img/servants-lamp.PNG",
 		"dropLoc": [
+			{
+				"area": "Salem",
+				"quest": "Jail",
+				"ap": 21,
+				"apPerDrop": 108.7,
+				"dropRate": "19.3"
+			},
 			{
 				"area": "Camelot",
 				"quest": "Concealed Village",
