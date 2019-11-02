@@ -191,7 +191,7 @@ new Vue({
 	},
 	{
 		"itemName": "Night-Weeping Iron Stake",
-		"imageUrl": "vignette.wikia.nocookie.net/fategrandorder/images/3/35/Iron_Stake.png",
+		"imageUrl": "https://vignette.wikia.nocookie.net/fategrandorder/images/3/35/Iron_Stake.png",
 		"servants": "resources/img/servants-stake.PNG",
 		"dropLoc": [
 			{
