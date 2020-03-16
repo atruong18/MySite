@@ -12,6 +12,28 @@
 	<body>
 	<div id="app">
 
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="topModal">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Site Moved</h4>
+					</div>
+					<div class="modal-body">
+						<h4>
+							Please go to this new URL for updates:
+						</h4>
+						<h5>
+							<strong>
+								<a href="https://atruong18.github.io/FateGO/drop" target="_blank">Nicer looking site</a>
+							</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<nav class="navbar navbar-inverse remove-margin">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -127,5 +149,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/vue"></script>
 	<script src="resources/js/index.js"></script>
+
+	<script>
+		$('#topModal').modal()
+	</script>
 
 </html>
